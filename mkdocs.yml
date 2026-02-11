@@ -1,0 +1,35 @@
+site_name: Aether Docs
+site_author: wenyxz
+
+theme:
+  name: material
+  language: en
+  logo: /assets/images/icon.png
+  favicon: /assets/images/icon.png
+  
+  palette: 
+    scheme: slate
+    primary: black
+    accent: orange
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+
+nav:
+  - Docs: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - attr_list
